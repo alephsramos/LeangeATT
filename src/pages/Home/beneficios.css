@@ -1,12 +1,12 @@
 .beneficios{
     width: 100%;
-    height: 130vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 50px;
-    padding: 0 10%;
+    padding: 5% 10%;
 }
 
 .beneficios h1{
@@ -21,7 +21,7 @@
 } 
 
 .beneficios img{
-    width: 20%;
+    width: 20vh;
 }
 
 .beneficios div{
@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 50%;
+    height: 50vh;
 }
 
 .beneficios div div{
