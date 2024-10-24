@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+:root{
+    --color--white: #fbfbfb;
+    --color--black: #4d4d4d;
+    --color--green: #ADAC34;
+    --color--blue: #A6C4D3;
+
+    --font--comfortaa: "Comfortaa", sans-serif;
+    --font--avenir: 'Avenir', sans-serif;
+}

@@ -1,0 +1,149 @@
+footer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10%;
+    gap: 30px;
+}
+
+footer main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+}
+
+footer main div:nth-child(1){
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer main div:nth-child(1) img{
+}
+
+footer main div:nth-child(1) h2{
+    font-size: 1.4rem;
+}
+
+footer main div:nth-child(1) ol {
+    list-style-type: square;
+    padding-left: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer main div:nth-child(1) ol li{
+}
+
+footer main div:nth-child(1) ol li a{
+    font-size: 1.2rem;
+}
+
+footer main div:nth-child(n + 2){
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer main div:nth-child(n + 2) h4{
+    font-size: 1.4rem;
+}
+
+.direitos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px){
+    footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10% 5%;
+        gap: 20px;
+    }
+    
+    footer main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100vh;
+        gap: 30px;
+    }
+    
+    footer main div:nth-child(1){
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+    footer main div:nth-child(1) img{
+    }
+    
+    footer main div:nth-child(1) h2{
+    }
+    
+    footer main div:nth-child(1) ol {
+        list-style-type: square;
+        padding-left: 25px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    footer main div:nth-child(1) ol li{
+    }
+    
+    footer main div:nth-child(1) ol li a{
+    }
+    
+    footer main div:nth-child(n + 2){
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    footer main div:nth-child(n + 2) h4{
+    }
+    
+    .direitos {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30vh;
+    
+    }
+}
