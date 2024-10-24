@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+    background-color: #e7e7e7;
 }
 
 .filhote div:nth-child(1){
@@ -44,13 +45,13 @@
 .filhote div:nth-child(2) p{
     font-family: var(--font--avenir);
     color: var(--color--black);
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .filhote div:nth-child(2) button{
     background-color: var(--color--green);
     padding: 15px 40px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 10px;
     border: none;
     font-weight: 600;
